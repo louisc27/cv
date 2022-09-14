@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://kit.fontawesome.com/c8a2917e09.js" crossorigin="anonymous"></script>
+   
+    <title>Robert Cunningham Jr.  | Web Developer</title>
+</head>
+<body>
+    <div class="container">
+        <div class="navigation">
+            <ul>
+                <li><a href="#banner" onclick="toggleMenu();">Home</a></li>
+                <li><a href="#about" onclick="toggleMenu();">About</a></li>
+                <li><a href="#services" onclick="toggleMenu();">Services</a></li>
+                <li><a href="#project" onclick="toggleMenu();">Projects</a></li>
+                <li><a href="#contact" onclick="toggleMenu();">Contact</a></li>
+            </ul>
+            <div class="themeSwitch" onclick="themeSwitch();"></div>
+        </div>
+        <div class="main">
+            <div class="topbar">
+                <a href="#" class="logo">Portfolio</a>
+                <div class="toggle">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </div>
+            <!-- header section -->
+            <section class="banner" id="banner">
+                <div class="content">
+                    <div class="imgBx">
+                        <img src="./css/img/GWS_2270.jpg" >
+                    </div>
+                    <h3>Robert Cunningham</h3>
+                    <p>I am a Front End Web Developer</p>
+                    <a href="./css/Copy of Robert Cunningham Resume (2021) (4).pdf" class="btn">Download my CV</a>
+                    <ul class="socialMedia">
+                        <li><a href="https://twitter.com/ItConfigDC"><i class="fa-brands fa-twitter"></i></a></li>
+                        <li><a href="https://www.linkedin.com/in/louis-cunningham-2bb5231b6/"><i class="fa-brands fa-linkedin"></i></a></li>
+                    </ul>
+                </div>
+            </section>
+<!-- about section -->
+<section class="about adjust" id="about">
+    <div class="title">
+        <h2>About Me</h2>
+    </div>
+    <div class="content">
+        <div class="textBox">
+            <p>My goal as a Front-end Developer is to help small businesses create an online presence that greatly increases their exposure to target markets.
+                <br>
+                <br>
+                I look forward to helping you create a responsive, mobile-friendly site that engages and retains your target market.</p>
+        </div>
+        <div class="imgBox">
+            <img src="./css/img/pexels-antonio-batinić-4164418.jpg">
+        </div>
+    </div>
+</section>
+<!-- about section end -->
+<!-- services section start -->
+<section class="services adjust" id="services">
+    <div class="title">
+        <h2>My Services</h2>
+        <p>I offer various services dedicated to improving web traffic and brand recognition. </p>
+    </div>
+    <div class="content">
+        <div class="serviceBox">
+            <img src="./css/img/icon1.png" >
+            <h2>Web Design</h2>
+            <p>Minimalistic (or not) styled UI/UX designs built to keep visitors engaged in content.</p>
+        </div>
+        <div class="serviceBox">
+            <img src="./css/img/icon2.png" >
+            <h2>Web Development</h2>
+            <p>From hard-coding to frameworks to wordpress. Responsive ,mobile-first web sites or applications built with accessibility and customer retention in mind.</p>
+        </div>
+        <div class="serviceBox">
+            <img src="./css/img/icon3.png" >
+            <h2>Android Development</h2>
+            <p>Turn your business into an app!</p>
+        </div>
+        
+        
+    </div>
+</section>
+<!-- services section end -->
+<!-- project section start -->
+<section class="project adjust" id="project">
+    <div class="title">
+        <h2>Recent Work</h2>
+        <p>A few projects meant to show expertise in different areas in development. 
+        </p>
+    </div>
+    <div class="content">
+        <div class="workBox">
+            <div class="imgBox">
+                <img src="./css/img/FireShot Capture 001 - Relaxation app - codepen.io.png">
+            </div>
+            <div class="textBox">
+                <h3><a style="text-decoration: none;" href="https://codepen.io/LouisC27/pen/oNxZxOV">Relaxation App</a></h3>
+            </div>
+        </div>
+        <div class="workBox">
+            <div class="imgBox">
+                <img src="./css/img/FireShot Capture 002 - Minesweeper - codepen.io.png">
+            </div>
+            <div class="textBox">
+                <h3>Project 02</h3>
+            </div>
+        </div>
+        <div class="workBox">
+            <div class="imgBox">
+                <img src="./css/img/FireShot Capture 003 - Hangman - codepen.io.png">
+            </div>
+            <div class="textBox">
+                <h3>Project 03</h3>
+            </div>
+        </div>
+        <div class="workBox">
+            <div class="imgBox">
+                <img src="./css/img/FireShot Capture 004 - A Pen by Louis Cunningham - codepen.io.png">
+            </div>
+            <div class="textBox">
+                <h3>Project 04</h3>
+            </div>
+        </div>
+        
+        
+        
+        
+    </div>
+</section>
+<!-- project section end -->
+<!-- contact section start -->
+<section class="contact adjust" id="contact">
+    <div class="title">
+        <h2>Contact</h2>
+        <p>Let's work together!</p>
+    </div>
+    <form class="contactForm" method="POST" action="./contact-form-process.php">
+        <div class="row">
+            <input type="text" name="" placeholder="First Name">
+            <input type="text" name="" placeholder="Last Name">
+        </div>
+        <div class="row">
+            <input type="text" name="" placeholder="Email Address">
+            <input type="text" name="" placeholder="Mobile No.">
+        </div>
+        <div class="row2">
+            <textarea placeholder="Message"></textarea>
+        </div>
+        <div class="row2">
+            <input type="submit" value="Send">
+        </div>
+    </form>
+</section>
+<!-- contract section end -->
+<!-- copyright start -->
+<div class="copyright">
+    <p>Robert Cunningham | Web Developer | 2022</p>
+</div>
+<!-- copyright end -->
+        </div>
+    </div>
+    <script src="./js/main.js"></script>
+</body>
+</html>
